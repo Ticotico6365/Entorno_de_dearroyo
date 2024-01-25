@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+<<<<<<< HEAD
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.9 (Python) (2)" project-jdk-type="Python SDK" />
+=======
+  <component name="Black">
+    <option name="sdkName" value="Python 3.9 (fishoa)" />
+  </component>
+<<<<<<< HEAD:Programación/Python/Python/.idea/misc.xml
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.9 (Python) (3)" project-jdk-type="Python SDK" />
+>>>>>>> 09f72d669534259bb69209cc5b459765fa80c2df
+=======
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.9 (fishoa)" project-jdk-type="Python SDK" />
+>>>>>>> 32f78972c3641c306181b31d4fffed0a878a9344:Entornos de desarrollo/fishoa/.idea/misc.xml
+</project>

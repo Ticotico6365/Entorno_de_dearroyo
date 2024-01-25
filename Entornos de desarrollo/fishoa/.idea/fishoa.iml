@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+<<<<<<< HEAD:Programación/Python/Python/.idea/Python.iml
+<<<<<<< HEAD
+<<<<<<<< HEAD:Programación/Python/Python/.idea/Python.iml
+    <content url="file://$MODULE_DIR$" />
+========
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/venv/ven" />
+    </content>
+>>>>>>>> 09f72d669534259bb69209cc5b459765fa80c2df:Programación/Python/.idea/Python.iml
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="PyDocumentationSettings">
+    <option name="format" value="PLAIN" />
+    <option name="myDocStringFormat" value="Plain" />
+  </component>
+=======
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/venv" />
+    </content>
+=======
+    <content url="file://$MODULE_DIR$" />
+>>>>>>> 32f78972c3641c306181b31d4fffed0a878a9344:Entornos de desarrollo/fishoa/.idea/fishoa.iml
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+>>>>>>> 09f72d669534259bb69209cc5b459765fa80c2df
+</module>
