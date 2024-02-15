@@ -1,0 +1,1100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>txt_id_edit</class>
+ <widget class="QMainWindow" name="txt_id_edit">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>807</width>
+    <height>734</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item row="0" column="0">
+     <widget class="QFrame" name="Fondo">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout" stretch="2,7">
+       <property name="leftMargin">
+        <number>0</number>
+       </property>
+       <property name="topMargin">
+        <number>0</number>
+       </property>
+       <property name="rightMargin">
+        <number>0</number>
+       </property>
+       <property name="bottomMargin">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QFrame" name="Botones">
+         <property name="styleSheet">
+          <string notr="true">QFrame{
+	background-color: rgb(140, 140, 140);
+}
+
+QPushButton{
+	font-size: 25px;
+	color:white;
+	height: 100px;
+	border-radius: 20px;
+	background-color:rgb(211, 184, 29);
+}
+
+QPushButton::hover{
+	background-color: rgb(0, 0, 0);
+}</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout">
+          <item>
+           <widget class="QPushButton" name="bt_ver_tabla">
+            <property name="text">
+             <string>Tabla</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>ver_tabla.png</normaloff>ver_tabla.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>50</width>
+              <height>50</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="bt_crear">
+            <property name="text">
+             <string>Crear</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>crear.png</normaloff>crear.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>50</width>
+              <height>50</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="bt_editar">
+            <property name="text">
+             <string>Editar</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>guardar.png</normaloff>guardar.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>50</width>
+              <height>50</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="bt_eliminar">
+            <property name="text">
+             <string>Eliminar</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normaloff>eliminar.png</normaloff>eliminar.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>50</width>
+              <height>50</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout">
+          <property name="leftMargin">
+           <number>0</number>
+          </property>
+          <property name="topMargin">
+           <number>0</number>
+          </property>
+          <property name="rightMargin">
+           <number>0</number>
+          </property>
+          <property name="bottomMargin">
+           <number>0</number>
+          </property>
+          <property name="spacing">
+           <number>0</number>
+          </property>
+          <item row="0" column="0">
+           <widget class="QStackedWidget" name="stackedWidget">
+            <property name="styleSheet">
+             <string notr="true">QLabel{
+	font-size: 20px;
+    padding: 10px;   
+	background-color: rgb(140, 140, 140);
+	color:rgb(211, 184, 29);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+QPushButton{
+	font-size: 20px;
+	color:white;
+	padding:10px;
+	border-radius: 20px;
+	background-color:rgb(211, 184, 29);
+}
+QPushButton::hover{
+	background-color: rgb(0, 0, 0);
+}
+</string>
+            </property>
+            <property name="currentIndex">
+             <number>0</number>
+            </property>
+            <widget class="QWidget" name="tabla">
+             <layout class="QVBoxLayout" name="verticalLayout_9">
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_2">
+                <item>
+                 <widget class="QLabel" name="label_nombre_libre">
+                  <property name="text">
+                   <string>Librería el Gusanito Lector FILOSOFÍA</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <layout class="QHBoxLayout" name="horizontalLayout_2" stretch="1,4">
+                  <item>
+                   <spacer name="horizontalSpacer">
+                    <property name="orientation">
+                     <enum>Qt::Horizontal</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>40</width>
+                      <height>20</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                  <item>
+                   <widget class="QComboBox" name="elige_tipo">
+                    <item>
+                     <property name="text">
+                      <string>Libros de viaje</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Emociones</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>0 a 1 años</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>1 a 3 años</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>3 a 5 años</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Ilustrados infantiles</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Primeros lectores</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>6 a 8 años</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>8 a 10 años</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>10 a 12 años</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Divulgación infantil</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Juvenil</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Literatura fantástica</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Ciencia-ficción</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Cómic</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Ilustrados adultos</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Arte</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Fotografía</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Arquitectura</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Música</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Cine</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Regalo</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Divulgación</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Historia</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Memoria histórica</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Sociología</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Género</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Filosofía</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Religión</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Esoterismo</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Ensayo</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Ensayo económico</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Empresa</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Técnicos</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Textos legales</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Crecimiento personal</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Salud</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Psicología</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Pedagogía</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Crianza</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Cocina y gastronomía</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Jardinería</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Decoración</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Manualidades</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Bricolaje</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Informática</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Diccionarios</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Idiomas</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Viajes</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Turismo</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Planos</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Folklore</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Narrativa</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Relatos cortos</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Poesía</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Teatro</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Citas</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Clásicos</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Policiaco</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Humor</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Vacaciones</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Texto</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Biografías</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Poesía infantil</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Novela historica</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Teatro infantil</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Pegatinas y colorear</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Deporte</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Botiquín</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Masoneria</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Cuaderneria</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Ensayo político</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Ensayo sociológico</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Ensayo literario/lingüístico</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Ensayo histórico</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Ensayo antropológico</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Sexualidad</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Tauromaquia</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Epistolario</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Jugueteria</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Calendario</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Agendas</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Letra grande</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Lgtbi</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Pasatiempos</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Aprendizaje</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Libros singulares</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Religion-ensayo</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Cine-música-ensayo</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Ecología-biología- ensayo</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Labores</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Oposiciones</string>
+                     </property>
+                    </item>
+                    <item>
+                     <property name="text">
+                      <string>Libros singulares</string>
+                     </property>
+                    </item>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+                <item>
+                 <widget class="QTableWidget" name="tableWidget">
+                  <column>
+                   <property name="text">
+                    <string>id</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>portada</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>nombre</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>autor/es</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>precio</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>ISBN</string>
+                   </property>
+                  </column>
+                  <column>
+                   <property name="text">
+                    <string>Tipo</string>
+                   </property>
+                  </column>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="crear">
+             <layout class="QVBoxLayout" name="verticalLayout_10">
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_5">
+                <item>
+                 <widget class="QLabel" name="label_insert_libro">
+                  <property name="text">
+                   <string>Insertar Libro</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <layout class="QHBoxLayout" name="horizontalLayout_4">
+                  <item>
+                   <spacer name="horizontalSpacer_2">
+                    <property name="orientation">
+                     <enum>Qt::Horizontal</enum>
+                    </property>
+                    <property name="sizeHint" stdset="0">
+                     <size>
+                      <width>40</width>
+                      <height>20</height>
+                     </size>
+                    </property>
+                   </spacer>
+                  </item>
+                  <item>
+                   <widget class="QPushButton" name="bt_guardar_insert">
+                    <property name="text">
+                     <string>Guardar</string>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+                <item>
+                 <layout class="QHBoxLayout" name="horizontalLayout_3">
+                  <item>
+                   <layout class="QVBoxLayout" name="verticalLayout_3">
+                    <item>
+                     <widget class="QLabel" name="etiq_portada_insert">
+                      <property name="text">
+                       <string>Portada</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="etiq_nombre_insert">
+                      <property name="text">
+                       <string>Nombre</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="etiq_autores_insert">
+                      <property name="text">
+                       <string>Autores</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="etiq_precio_insert">
+                      <property name="text">
+                       <string>Precio</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="etiq_isbn_insert_2">
+                      <property name="text">
+                       <string>ISBN</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="etiq_tipo_insert">
+                      <property name="text">
+                       <string>Tipo</string>
+                      </property>
+                      <property name="alignment">
+                       <set>Qt::AlignCenter</set>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                  <item>
+                   <layout class="QVBoxLayout" name="verticalLayout_4">
+                    <item>
+                     <widget class="QPlainTextEdit" name="txt_portada_insert"/>
+                    </item>
+                    <item>
+                     <widget class="QPlainTextEdit" name="txt_nombre_insert"/>
+                    </item>
+                    <item>
+                     <widget class="QPlainTextEdit" name="txt_autores_insert"/>
+                    </item>
+                    <item>
+                     <widget class="QDoubleSpinBox" name="txt_precio_insert">
+                      <property name="styleSheet">
+                       <string notr="true">QDoubleSpinBox{
+	height:100%;
+}</string>
+                      </property>
+                      <property name="maximum">
+                       <double>10000.989999999999782</double>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QPlainTextEdit" name="txt_isbn_insert"/>
+                    </item>
+                    <item>
+                     <widget class="QPlainTextEdit" name="txt_tipo_insert"/>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="editar">
+             <layout class="QVBoxLayout" name="verticalLayout_11">
+              <item>
+               <widget class="QLabel" name="label_edite_libro">
+                <property name="text">
+                 <string>Edite un libro</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_6">
+                <item>
+                 <widget class="QLabel" name="etiq_id_edit">
+                  <property name="text">
+                   <string>ID</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QSpinBox" name="txt_id_edit_2">
+                  <property name="maximum">
+                   <number>10000</number>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="bt_busca_edit">
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="icon">
+                   <iconset>
+                    <normaloff>busca.png</normaloff>busca.png</iconset>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_5">
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout_7">
+                  <item>
+                   <widget class="QLabel" name="etiq_portada_edit">
+                    <property name="text">
+                     <string>Portada</string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="etiq_nombre_edit">
+                    <property name="text">
+                     <string>Nombre</string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="etiq_autores_edit">
+                    <property name="text">
+                     <string>Autores</string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="etiq_precio_edit">
+                    <property name="text">
+                     <string>Precio</string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="etiq_isbn_edit">
+                    <property name="text">
+                     <string>ISBN</string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QLabel" name="etiq_tipo_edit">
+                    <property name="text">
+                     <string>Tipo</string>
+                    </property>
+                    <property name="alignment">
+                     <set>Qt::AlignCenter</set>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout_8">
+                  <item>
+                   <widget class="QPlainTextEdit" name="txt_portada_edit"/>
+                  </item>
+                  <item>
+                   <widget class="QPlainTextEdit" name="txt_nombre_edit"/>
+                  </item>
+                  <item>
+                   <widget class="QPlainTextEdit" name="txt_autores_edit"/>
+                  </item>
+                  <item>
+                   <widget class="QDoubleSpinBox" name="txt_precio_edit">
+                    <property name="styleSheet">
+                     <string notr="true">QDoubleSpinBox{
+	height: 100%;
+}</string>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QPlainTextEdit" name="txt_isbn_edit"/>
+                  </item>
+                  <item>
+                   <widget class="QPlainTextEdit" name="txt_tipo_edit"/>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <widget class="QPushButton" name="bt_guardar_edit">
+                <property name="text">
+                 <string>Guardar</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+            <widget class="QWidget" name="delete_2">
+             <widget class="QLabel" name="etiq_delete_delete_2">
+              <property name="geometry">
+               <rect>
+                <x>11</x>
+                <y>11</y>
+                <width>571</width>
+                <height>44</height>
+               </rect>
+              </property>
+              <property name="text">
+               <string>Elimine un libro</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+             <widget class="QWidget" name="layoutWidget">
+              <property name="geometry">
+               <rect>
+                <x>10</x>
+                <y>260</y>
+                <width>561</width>
+                <height>89</height>
+               </rect>
+              </property>
+              <layout class="QHBoxLayout" name="horizontalLayout_7">
+               <item>
+                <widget class="QLabel" name="etiq_id_delete">
+                 <property name="text">
+                  <string>ID</string>
+                 </property>
+                 <property name="alignment">
+                  <set>Qt::AlignCenter</set>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QSpinBox" name="txt_id_delete_2">
+                 <property name="maximum">
+                  <number>10000</number>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="bt_busca_delete">
+                 <property name="text">
+                  <string/>
+                 </property>
+                 <property name="icon">
+                  <iconset>
+                   <normaloff>eliminar.png</normaloff>eliminar.png</iconset>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </widget>
+            </widget>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

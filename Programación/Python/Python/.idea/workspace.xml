@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="4c1f0925-0ba4-4658-825c-26d48769c1a3" name="Changes" comment="Casi terminamos el trabajo de programación, solo falta los extras">
+      <change afterPath="$PROJECT_DIR$/Prueva 3/Ejercicio canciones/Ejercicio_canciones.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Prueva 3/Ejercicio canciones/lista_canciones.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+    <list default="true" id="4c1f0925-0ba4-4658-825c-26d48769c1a3" name="Changes" comment="Metemos los enunciados de los ejercicios para el examen de programación de hoy">
+      <change afterPath="$PROJECT_DIR$/Examen_python1/Examen_python1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prueva 3/Batery_of_excersice_bien_hecho.py" beforeDir="false" afterPath="$PROJECT_DIR$/Prueva 3/Batery_of_excersice_bien_hecho.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Prueva 3/Examenes_años_anteriores/Examen2021.py" beforeDir="false" afterPath="$PROJECT_DIR$/Prueva 3/Examenes_años_anteriores/Examen2021.py" afterDir="false" />
+>>>>>>> 4e7dddcc2500d10ce07c4b8b4e99cb8fa5628dc5
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Ticotico6365&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="6b5f1bc6-a700-4231-bd84-1507fc2667ab" />
+        <option name="url" value="https://github.com/Ticotico6365/1-DAW.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2Yqe3X4xcwiNX3vGZEyirfHO8AB" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/damda/OneDrive/Documentos/1-daw2/1-DAW/Programación/Python/Python",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\damda\OneDrive\Documentos\1-DAW\1-DAW\Programación\Python\Python\Prueva 3\APP_el_gusanito_lector" />
+      <recent name="C:\Users\damda\OneDrive\Documentos\1-DAW\1-DAW\Programación\Python\Python\Prueva 3\APP_el_gusanito_lector\pyqt5_patriarca" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4c1f0925-0ba4-4658-825c-26d48769c1a3" name="Changes" comment="" />
+      <created>1701257340260</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701257340260</updated>
+      <workItem from="1701257342834" duration="267000" />
+      <workItem from="1701257612819" duration="470000" />
+      <workItem from="1701258173101" duration="245000" />
+      <workItem from="1701258453424" duration="403000" />
+      <workItem from="1701259347315" duration="651000" />
+      <workItem from="1701260443702" duration="443000" />
+      <workItem from="1701260899396" duration="2754000" />
+      <workItem from="1701266141953" duration="11403000" />
+      <workItem from="1701336263469" duration="10219000" />
+      <workItem from="1701379167544" duration="1055000" />
+      <workItem from="1701423433445" duration="10799000" />
+      <workItem from="1701440247923" duration="29000" />
+      <workItem from="1701440370743" duration="11520000" />
+      <workItem from="1701453963154" duration="650000" />
+      <workItem from="1701465531025" duration="115000" />
+      <workItem from="1701771769471" duration="5660000" />
+      <workItem from="1701786694067" duration="11829000" />
+    </task>
+    <task id="LOCAL-00001" summary="Casi terminamos el trabajo de programación, solo falta los extras">
+      <option name="closed" value="true" />
+      <created>1701349001880</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701349001880</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Casi terminamos el trabajo de programación, solo falta los extras">
+      <option name="closed" value="true" />
+      <created>1701424294699</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701424294699</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Metemos cosas para el examen de programación de hoy">
+      <option name="closed" value="true" />
+      <created>1701778096337</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701778096337</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Metemos cosas para el examen de programación de hoy">
+      <option name="closed" value="true" />
+      <created>1701778115885</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701778115885</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Metemos los enunciados de los ejercicios para el examen de programación de hoy">
+      <option name="closed" value="true" />
+      <created>1701786745009</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701786745009</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Casi terminamos el trabajo de programación, solo falta los extras" />
+    <MESSAGE value="Metemos cosas para el examen de programación de hoy" />
+    <MESSAGE value="Metemos los enunciados de los ejercicios para el examen de programación de hoy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Metemos los enunciados de los ejercicios para el examen de programación de hoy" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Prueva 3/Examenes_años_anteriores/Examen2021.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Examen_python1/Examen_python1.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Prueva 3/Ejercicio canciones/Ejercicio_canciones.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+<<<<<<< HEAD
+    <SUITE FILE_PATH="coverage/Python$existe_pagina.coverage" NAME="existe_pagina Coverage Results" MODIFIED="1701451751078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Prueva 3/APP_el_gusanito_lector" />
+    <SUITE FILE_PATH="coverage/Python$app_egl.coverage" NAME="app_egl Coverage Results" MODIFIED="1701465580837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Prueva 3/APP_el_gusanito_lector" />
+    <SUITE FILE_PATH="coverage/Python$conectamos_con_base_de_datos_EGL.coverage" NAME="conectamos_con_base_de_datos_EGL Coverage Results" MODIFIED="1701451768735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Prueva 3/APP_el_gusanito_lector" />
+=======
+    <SUITE FILE_PATH="coverage/Python$Batery_of_excersice_bien_hecho.coverage" NAME="Batery_of_excersice_bien_hecho Coverage Results" MODIFIED="1701789203294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Prueva 3" />
+>>>>>>> 4e7dddcc2500d10ce07c4b8b4e99cb8fa5628dc5
+    <SUITE FILE_PATH="coverage/Python$Listas_prueva.coverage" NAME="Listas_prueva Coverage Results" MODIFIED="1701259364333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Prueva 3" />
+    <SUITE FILE_PATH="coverage/Python$7ymedio.coverage" NAME="7ymedio Coverage Results" MODIFIED="1701258398201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Prueva 3" />
+    <SUITE FILE_PATH="coverage/Python$estracción_todos_libros.coverage" NAME="estracción_todos_libros Coverage Results" MODIFIED="1701450578612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Prueva 3/APP_el_gusanito_lector" />
+    <SUITE FILE_PATH="coverage/Python$Examen_python1.coverage" NAME="Examen_python1 Coverage Results" MODIFIED="1701804385465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Examen_python1" />
+    <SUITE FILE_PATH="coverage/Python$app_egl.coverage" NAME="app_egl Coverage Results" MODIFIED="1701465580837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Prueva 3/APP_el_gusanito_lector" />
+    <SUITE FILE_PATH="coverage/Python$app.coverage" NAME="app Coverage Results" MODIFIED="1701424994665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Prueva 3/APP_el_gusanito_lector/pyqt5_patriarca" />
+<<<<<<< HEAD
+    <SUITE FILE_PATH="coverage/Python$Ejercicio_canciones.coverage" NAME="Ejercicio_canciones Coverage Results" MODIFIED="1701731468247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Prueva 3/Ejercicio canciones" />
+=======
+    <SUITE FILE_PATH="coverage/Python$existe_pagina.coverage" NAME="existe_pagina Coverage Results" MODIFIED="1701451751078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Prueva 3/APP_el_gusanito_lector" />
+    <SUITE FILE_PATH="coverage/Python$Examen2021.coverage" NAME="Examen2021 Coverage Results" MODIFIED="1701789512717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Prueva 3/Examenes_años_anteriores" />
+    <SUITE FILE_PATH="coverage/Python$Bingo.coverage" NAME="Bingo Coverage Results" MODIFIED="1701257901553" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Prueva 3" />
+    <SUITE FILE_PATH="coverage/Python$conectamos_con_base_de_datos_EGL.coverage" NAME="conectamos_con_base_de_datos_EGL Coverage Results" MODIFIED="1701451768735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Prueva 3/APP_el_gusanito_lector" />
+>>>>>>> 4e7dddcc2500d10ce07c4b8b4e99cb8fa5628dc5
+  </component>
+</project>

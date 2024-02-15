@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1220df98-cdf3-4a4c-83ca-1d97d1802c2c" name="Changes" comment="Seguimos con la V5 de Programación">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utilidades/UltilidadesEmpresa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilidades/UltilidadesEmpresa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utilidades/UtilidadesAlmacen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilidades/UtilidadesAlmacen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utilidades/UtilidadesFactura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utilidades/UtilidadesFactura.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2b36B4Y0bNoxldCpeNILwrMwnlX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Generador.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.pruebaV1.executor": "Run",
+    "Application.pruebaV2.executor": "Run",
+    "Application.pruebaV3.executor": "Run",
+    "Application.pruebaV4.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/damda/OneDrive/Documentos/1-daw2/1-DAW/Programación/JavaNetflix",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/damda/OneDrive/Documentos/1-daw2/1-DAW/Entornos de desarrollo/proyectoSupermercado/src/main/java/main/Main.java",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="pruebaV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pruebaV3" />
+      <module name="proyectoSupermercado." />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.pruebaV3" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.1-corretto-21.0.1-3183f394aec4-3b9d21dd" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1220df98-cdf3-4a4c-83ca-1d97d1802c2c" name="Changes" comment="" />
+      <created>1705431278704</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705431278704</updated>
+      <workItem from="1705431279882" duration="3368000" />
+      <workItem from="1705499768090" duration="5308000" />
+      <workItem from="1705507456289" duration="739000" />
+      <workItem from="1705521565520" duration="146000" />
+      <workItem from="1705586250370" duration="277000" />
+      <workItem from="1705672853127" duration="7420000" />
+      <workItem from="1705683135722" duration="33000" />
+      <workItem from="1706032742739" duration="1183000" />
+      <workItem from="1706039232861" duration="455000" />
+      <workItem from="1706104974654" duration="15000" />
+      <workItem from="1706105020154" duration="5872000" />
+      <workItem from="1706190838556" duration="21000" />
+      <workItem from="1706278285276" duration="8922000" />
+      <workItem from="1706636532864" duration="7164000" />
+      <workItem from="1706712235242" duration="4690000" />
+      <workItem from="1706796588257" duration="10000" />
+      <workItem from="1706796662851" duration="59000" />
+      <workItem from="1706802416492" duration="995000" />
+      <workItem from="1707136100340" duration="633000" />
+      <workItem from="1707241053165" duration="5350000" />
+      <workItem from="1707324288037" duration="11000" />
+      <workItem from="1707400960267" duration="64000" />
+      <workItem from="1707401062059" duration="33000" />
+      <workItem from="1707488069622" duration="1693000" />
+      <workItem from="1707846383609" duration="6615000" />
+      <workItem from="1707919210102" duration="4394000" />
+    </task>
+    <task id="LOCAL-00001" summary="hacemos el proyexto de java en programación">
+      <option name="closed" value="true" />
+      <created>1705434629162</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705434629162</updated>
+    </task>
+    <task id="LOCAL-00002" summary="hacemos la parte 2 del proyecto">
+      <option name="closed" value="true" />
+      <created>1705507581118</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705507581118</updated>
+    </task>
+    <task id="LOCAL-00003" summary="hacemos la parte 2 del proyecto java">
+      <option name="closed" value="true" />
+      <created>1705521582284</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705521582284</updated>
+    </task>
+    <task id="LOCAL-00004" summary="seguimos haciendo la parte 2 de java">
+      <option name="closed" value="true" />
+      <created>1705683050221</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705683050221</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Empezamos haciendo la parte 3 de java">
+      <option name="closed" value="true" />
+      <created>1706039664003</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706039664003</updated>
+    </task>
+    <task id="LOCAL-00006" summary="COrregimos ejercicios de java">
+      <option name="closed" value="true" />
+      <created>1706112198120</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1706112198120</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Seguimos haciendo programación y casi teminamos la V3">
+      <option name="closed" value="true" />
+      <created>1706287183712</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1706287183712</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Seguimos haciendo programación, la V4">
+      <option name="closed" value="true" />
+      <created>1706716862818</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1706716862818</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Correjimos la V4 en programación">
+      <option name="closed" value="true" />
+      <created>1707246683470</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1707246683470</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Terminamos los 2 apartados de la V4 que me faltaban">
+      <option name="closed" value="true" />
+      <created>1707249151876</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1707249151876</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Seguimos con la V5 de Programación">
+      <option name="closed" value="true" />
+      <created>1707489467624</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1707489467624</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Seguimos con la V5 de Programación">
+      <option name="closed" value="true" />
+      <created>1707854017259</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1707854017259</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="hacemos el proyexto de java en programación" />
+    <MESSAGE value="hacemos la parte 2 del proyecto" />
+    <MESSAGE value="hacemos la parte 2 del proyecto java" />
+    <MESSAGE value="seguimos haciendo la parte 2 de java" />
+    <MESSAGE value="Empezamos haciendo la parte 3 de java" />
+    <MESSAGE value="COrregimos ejercicios de java" />
+    <MESSAGE value="Seguimos haciendo programación y casi teminamos la V3" />
+    <MESSAGE value="Seguimos haciendo programación, la V4" />
+    <MESSAGE value="Correjimos la V4 en programación" />
+    <MESSAGE value="Terminamos los 2 apartados de la V4 que me faltaban" />
+    <MESSAGE value="Seguimos con la V5 de Programación" />
+    <option name="LAST_COMMIT_MESSAGE" value="Seguimos con la V5 de Programación" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/utilidades/UltilidadesEmpresa.java</url>
+          <line>112</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="args" />
+        <watch expression="i" />
+        <watch expression="i" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
